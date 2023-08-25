@@ -1,3 +1,0 @@
-<label for="in">Number:</label> 
-<input id="Num" type="number" name="in" min="${min}"max="${max}">
-<button id="check" class="btn btn-outline-light">Submit</button>
