@@ -63,5 +63,9 @@ function start() {
         element.remove();
         ele.innerText = "Thanks for playing Guess-Number Game";
         but.remove();
+        window.setTimeout(() => {
+            ele.remove();
+            document.getElementById("main").style.display = "block";
+        }, 5000);
     }
 }
